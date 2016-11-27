@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=UTF-8">
+		<title> News </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Since, we need below JScript only for older version Internet Explorer(IE) browser. We can enclosed in the IE conditional comment. -->
+		<!-- [if lt IE 9]>
+		<script>
+			document.createElement("article");
+			document.createElement("aside");
+			document.createElement("footer");
+			document.createElement("header");
+			document.createElement("main");
+			document.createElement("nav");
+			document.createElement("section");			
+		</script>
+		<![endif]-->
+	</head>
+	<body>
+	
+	<header class="banner">	<!-- used for introductory content for the whole page-->
+		<h1>News</h1>
+		<p>Local and National News</p>
+	</header>
+	
+	<nav>	<!-- navigation links for the whole page-->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="archive.html">Archives</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+	
+	<main>	
+	<!-- Here the main content of the web page will be located
+	here we will have 2 sections one for Local News and other for National News -->
+		<section> <!-- Section element is use to groupd a generic block of related content -->
+			<h2>Local News</h2>
+			<article> 
+			<!-- Article element is use for a complete or self content composition. 
+			So an independent content that can stand all on its own is suitable to fit in an Article element -->
+				<header>
+					<h3>Fire fighters rescue man from building</h3>
+					<p>(author, date)</p>
+				</header>
+				<p>This is the story text.This is the story text.</p>
+				<p>This is the story text.This is the story text.</p>
+			</article>
+			
+			<article> 
+				<header>	
+					<h3>New Library to be built</h3>
+					<p>(author, date)</p>
+				</header>
+				<p>This is the story text.This is the story text.</p>
+				<p>This is the story text.This is the story text.</p>
+			</article>
+		</section>
+		
+		<section>
+			<h2>National News</h2>
+			<article> 
+				<header>	
+					<h3>Snow storm is making travel difficult</h3>
+					<p>(author, date)</p>
+				</header>
+				<p>This is the story text.This is the story text.</p>
+				<p>This is the story text.This is the story text.</p>
+			</article>
+			
+			<article> 
+				<header>	
+					<h3>Thousands are without power</h3>
+					<p>(author, date)</p>
+				</header>
+				<p>This is the story text.This is the story text.</p>
+				<p>This is the story text.This is the story text.</p>
+			</article>
+		</section>
+	</main>
+	
+	<!-- Contents for the side bar -->
+	<!-- can be used for advertising --> 
+	<aside>		<!-- Contents that are separate from but are related to the content around it. What you put on inside this element, depends on where its located -->
+		<h2>Be a News reporter</h2>
+		<p>If you see news happening - send us a Text.</p>
+	</aside>
+	
+	<footer>	<!-- Can be used to display copy right information, links to related web pages or contact information-->
+		<p>Footer information</p>
+	</footer>
+	
+	</body>
+</html>
