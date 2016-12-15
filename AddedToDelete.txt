@@ -1,0 +1,2 @@
+This is added to show the git add command.
+After that I will use same file to show how to delete it.
